@@ -1,0 +1,548 @@
+*{
+     margin: 0;
+     
+
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+        overflow-x: hidden;
+}
+
+.navbar{
+           height: 60px;
+           width: 100%;
+           background-color: #0f1111;
+           color: white;
+           display: flex;
+           align-items: center;
+           justify-content: space-evenly;
+           position: static;
+           
+
+}
+
+
+.navbar .logo{
+        background-image: url("amazonlogo1.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 50px;
+        width: 150px;
+        margin-top: 10px;
+        
+    
+}
+
+.border{
+         border: 1px solid transparent;
+       
+}
+
+.border:hover{
+        border: 1.5px solid white; 
+}
+
+.address{
+        color: white;
+        font-size: 15px;
+        margin-left: -17px;
+        margin-top: 3px;
+
+}
+
+.address-1{
+        font-size: 25px;
+        align-items: center;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-search{
+        display: flex;
+        width: 700px;
+        height: 45px;
+        margin-left: 20px;
+        border: none;
+}
+
+.search-select{
+        width: 100px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: #ffda75;
+        text-align: center;
+        font-size: 15px;
+        font-weight: lighter;
+        color: black;
+}
+.search-select>option{
+        background-color: white;
+        padding: 10px 10px;
+        display: flex;
+        text-align: left;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: black;
+
+}
+
+
+.search-input{
+        width: 600px;
+        font-size: 15px;
+        text-align: left;
+        font-weight: lighter;
+        color: black;
+        padding-left: 5px;
+        border: none;
+
+
+}
+
+span{
+      font-size: 15px;
+      font-weight: bold; 
+      letter-spacing: 2px;   
+ }
+
+.account{
+        font-size: 20px;
+        font-weight: bolder;
+        color:#ffda75;
+ }
+
+
+.card{
+          font-size:25px;
+          font-weight: bold;
+          color: white;
+           
+
+ }
+
+
+.panel{
+        height:43px;
+        width:100%;
+        background-color: #222f3d;
+        color:white;
+        font-size: 20px;
+        align-items: center;
+        justify-content: space-evenly;
+      
+        
+        
+}
+
+.panel-ops{
+        display: flex;
+}
+
+.panel-ops p{
+        margin-left: 22px;
+        text-align: center;
+        align-items: center;
+        margin-top: 7px;
+        
+}
+
+.panel .panel-ops .panel-end{
+        margin-left: 470px;
+}
+#timing{
+        font-size: 18px;
+        padding-top: 4px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        animation: changes 0.9s infinite ease-out;
+}
+
+@keyframes changes {
+        0%{
+                color:rgb(255, 255, 0);
+                font-size: 18.5px;
+        }
+        10%{
+                color:rgb(0, 255, 255);
+        }
+        20%{
+                color:rgb(255, 0, 0);
+                font-size: 18.5px;
+        }
+        30%{
+                color:rgb(21, 255, 9);
+        }
+        40%{
+                color:rgb(0, 255, 255);
+                font-size: 18.5px;
+        }
+        50%{
+                color:rgb(0, 247, 255);
+        }
+        60%{
+                color:rgb(0, 255, 51);
+                font-size: 18.5px;
+        }
+        70%{
+                color:rgb(251, 0, 255);
+        }
+        80%{
+                color:rgb(0, 255, 255);
+                font-size: 18.5px;
+        }
+        90%{
+                color:rgb(0, 128, 255);
+        }
+        100%{
+                color:rgb(0, 255, 255);
+                font-size: 18.5px;
+        }
+} 
+
+
+@keyframes marquee-change {
+       
+        50%{
+                color:rgb(0, 39, 132);
+        }
+        100%{
+                color:rgb(255, 0, 0);
+             
+        }
+        
+    
+} 
+.hero-section{
+       background-image: url("project_img1.jpg");
+       animation: change 5s infinite ease-out;
+        height: 380px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end; 
+}
+
+@keyframes change{
+        0%{
+                background-image: url("project_img1.jpg");
+                height: 380px;
+        background-size: cover;
+       
+                
+        }
+        25%{
+                background-image: url("project_img10jpg.jpg");
+                height: 380px;
+        background-size: cover;
+      
+        }
+        50%{
+                background-image: url("project_img11.jpg");
+                height: 380px;
+        background-size: cover;
+        }
+         75%{
+                background-image: url("project_img12.jpg");
+                height: 380px;
+        background-size: cover;
+        }
+        100%{
+                background-image: url("project_img13.jpg");
+                height: 380px;
+        background-size: cover;
+        
+
+        }
+        
+        }
+
+.hero-mes{
+       background-color: lightskyblue;
+       color:black;
+       font-weight: bolder;
+       height: 30px;   
+       font-size: 15px; 
+       width: 80%;
+       padding-top:7px ;
+       text-align: center;
+       justify-content: center;
+       align-items: flex-end; 
+       margin-bottom: 50px;
+}
+
+.hero-mes a{
+        text-decoration: none;
+        color:blue;
+
+}
+
+.hero-mes a:hover{
+        color:red;
+}
+
+.content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #e2e7e6;
+}
+
+.box{
+        padding: 20px 0px 20px;
+        margin-top: 25px;
+        background-color: white;
+        width: 23%;
+        height: 450px;
+
+}
+.box-img{
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        height: 350px;
+        width: 100%;
+       
+       
+}
+.box-con{
+        margin-left: 15px;
+        margin-right: 15px;
+        
+
+}
+
+.see-more{
+        color: blue;
+}
+
+.see-more:hover{
+        color: red;
+}
+.box-con p{
+        color: blue;
+        margin-left: 10px;
+}
+
+.box-hover {
+        border:2px solid transparent;
+}
+
+.box-hover:hover{
+        border:0.5px solid blue;
+        /* background-attachment: fixed;
+        width: 23%;
+        margin: 2rem 2rem; */
+       transition: 1.5s;
+        box-shadow:  0 7px 21px 0 rgba( 0,0,0,0.20),  0 7px 21px 0 rgba( 0,0,0,0.20) ,  0 7px 21px 0 rgba( 0,0,0,0.20) ,  0 7px 21px 0 rgba( 0,0,0,0.20);
+
+}
+
+
+.phone{
+        height: 300px;
+        width: 99%;
+        padding-left: 10px;
+        padding-right: 5px;
+        margin-left:-4px;
+        margin-top: 16px;
+        padding-bottom: 10px;
+        display: grid;
+        place-items: center;
+        background-color: white;
+        overflow-y: hidden;
+        overflow-x: scroll;
+      
+}
+
+.phone-scroll{
+        height: 300px;
+        width:100%;
+        display: flex;
+        
+
+}
+
+.phone-scroll img{
+        width: 190px;
+        margin-top: 5px;
+        border: 0.3px solid black;
+        margin-left: 13px;
+        height: 230px;
+        /* background-size: 230px 240px; */
+
+        
+}
+
+.phone-scroll img:hover{
+        transition: 1s;
+        border: 0.3px solid blue;
+        box-shadow:  0 7px 21px 0 rgba( 0,0,0,0.20),  0 7px 21px 0 rgba( 0,0,0,0.20) ,  0 7px 21px 0 rgba( 0,0,0,0.20) ,  0 7px 21px 0 rgba( 0,0,0,0.20);
+
+}
+.today-deals{
+        padding-top: 25px;
+        margin-left:20px;
+        margin-right: 70px;
+        width: 97%;
+        height: 343px;
+        font-size: 20px;
+         padding-left: 5px;
+         background-color: white;
+
+}
+.seealldeals{
+        padding-left: 10px; padding-top: 5px; font-size: 17px; color: blue;
+}
+.seealldeals:hover{
+        color:red
+}
+
+.footer{
+        height: 180px;
+        width:100%;
+       
+        display: grid;
+align-items: center;
+justify-content: center;
+
+       
+}
+
+.footer-signin{
+          height: 110px;
+          margin-top: 10px;
+          margin-left: 10px;
+          margin-bottom: 10px;
+          margin-right:10px;
+          padding-top: 30px;
+         padding: 30px 630px;
+          border: 0.2px solid black;
+          font-size: 11px;
+          /* line-height: 10px; */
+        
+}
+
+
+.box-signin-footer{
+       
+        border-radius: 5px;
+        height: 28px;
+        width: 230px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:rgb(33, 29, 29);
+        background-color:  #ffda75;
+}
+
+.box-signin-footer:hover{
+        background-color: rgb(255, 189, 8);
+       
+        font-weight: bold;
+
+}
+.sign-up{
+        color:blue;
+        margin-left: px;
+
+}
+
+.sign-up:hover{
+        color: red ;
+}
+
+.back-to-top{
+        height: 50px;
+        background-color: #37475a;
+        width: 100%;
+        text-align: center;
+        padding-top: 25px;
+        font-size: 0.85rem;
+        color: #e2e7e6;
+        margin-top: 10px;
+
+}
+.panel-2{
+        display: flex;
+        background-color: #222f3d;
+        height: 300px;
+        justify-content: space-evenly;
+        color: white;
+        font-weight: bold;
+        padding-top: 20px;
+
+}
+ul{
+        margin-top: 15px;
+}
+
+.panel-2 ul p{
+        display: block;
+        margin-top: 10px;
+        font-size: 0.85 rem;
+        font-weight: 100;
+        color: #dddddd;
+}
+
+.footer-panel-3{
+        background-color: #222f3d;
+        height: 100px;
+        width: 100%;
+        color: white;
+        border-top: 1px solid white;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+   
+
+}
+
+.logo-panel-3{
+        background-image: url("amazonlogo1.png");
+        height: 50px;
+        width: 150px;
+        background-size: cover;
+       display: flex;
+       justify-content: center;
+}
+.end{
+        height: 430px;
+        color: #dddddd;
+        background-color: #131a22;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.end-col{
+        display: flex;
+        padding-left: 14%;
+       
+        padding-top: 29px;
+}
+
+.end-col1{
+        margin-left: 50px;
+        height: 60px;
+        width: 100px;
+        
+}
+
+.end-col1-size{
+        font-size:13px ; color: #999999;
+}
+
+.underline{
+        text-decoration: none;
+
+}
+
+.underline:hover{
+        text-decoration: underline;
+}
+.ended{
+        display: inline;
+}

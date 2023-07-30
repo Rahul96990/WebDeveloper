@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Amazon</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="project.css">
+    </head>
+    <body onload="showtime()" onload="endtime()">
+        <header>
+            <div class="navbar">
+               <div class="logo border">
+                         
+               </div>
+               <i class="fa-solid fa-location-dot" style="font-size: 25px; padding-left: 10px;"></i>
+                 
+               <div class="address border">
+                          <p>Deliver to</p>
+                    <div class="address-1 ">
+                          <p>India</p>
+                     </div>
+               </div>
+    
+               <div class="nav-search">
+                        <select class="search-select">
+                                <option style="text-align: center;">ALL</option>
+                                <option>Electronics</option>
+                                <option>Phones</option>
+                                <option>LED tv</option>
+                                <option>Clothes</option>
+                                <option>Shoes</option>
+                                <option>Jewellery</option>
+                                <option>Car & Toys</option>
+                                <option>Computer</option>
+                                <option>Health & Care</option>
+                                <option>Boys Fashion</option>
+                                <option>Girls Fashion</option>
+                        </select>
+                                <input placeholder="Search items here" class="search-input">
+                                    <i class="fa-solid fa-magnifying-glass" style="padding: 15px 20px; width: 30px; background-color: #ffda75; color: black; border-top-right-radius: 10px;
+                                    border-bottom-right-radius: 10px;"></i>
+                </div>
+    
+                <div class="nav-signin border">
+                            <p><span>Hello, Sign in</span></p>
+                            <p class="account">Account & List</p>
+                </div>
+                     
+                <div class="nav-signin border">
+                             <p><span>Return</span></p>
+                             <p class="account">& Order</p>
+                </div>
+                            <p class="card border">Add TO Card</p>
+            </div>
+    
+            
+            <div class="panel ">
+                <div class="panel-ops">
+                    <i class="fa-solid fa-bars" style="padding: 10px 10px;"></i>
+                    <p class="border">All</p>
+                    <p class="border">Today's Deals</p>
+                    <p class="border">Customer Service</p>
+                    <p class="border">Registry</p>
+                    <p class="border">Gifts Card</p>
+                    <p class="border">Offers</p>
+                    <p class="border">Sell</p>
+                    <p style="padding-left:460px ; padding-right: 10px;"> Time :-  </p>
+                    <div id="timing"><h2></h2></div>
+                </div>
+            </div>
+    
+            <div class="line-moving">
+                <marquee style="font-size: 12px;animation: marquee-change 1s infinite ease-out;"> <h3>50% off on Electronics, Home Appliance, Fashion, Phone ,Grocery, Furiture & Many more. Just scroll down and enjoy your shopping. Have a nice Day<h3></marquee>
+             </div>
+    
+        </header>
+    <panel>
+        <div class="hero-section" >
+            <div class="hero-mes">
+                <p>Currently, You are on Amazon.com . You can also shop on Amazon india for million of product with fast delivery <a href="www.amazon.in">Click to me to go amazon.in</a></a></p>
+            </div>
+    
+        </div>
+    </panel>
+    <container>
+        <div class="content">
+            <div class="box-1 box-hover box">
+                     <div class="box-con ">
+                                <h4>Up to 50% on laptops..</h4>
+                                 <div class="box-img" style="background-image: url('images9.webp');background-size: 350px 370px;"> </div>
+                                <p class="see-more">See more</p>
+                    </div>
+            </div>
+            <div class="box-2 box box-hover ">
+                         <div class="box-con ">
+                                <h4>Up to 50% on Clothing</h4>
+                                <div class="box-img"  style="background-image: url('images4.jpg') ;background-size: 350px 350px;"> </div>
+                                <p class="see-more">See more</p>
+                         </div>
+            </div>
+            <div class="box-3 box box-hover ">
+                <div class="box-con ">
+                                <h4>Up to 40% on Furiture</h4>
+                                <div class="box-img"  style="background-image: url('image1.jpg');background-size: 350px 350px;"> </div>
+                                <p class="see-more">See more</p>
+                 </div>
+            </div>
+            <div class="box-4 box box-hover ">
+                <div class="box-con ">
+                                <h4> Up to 30% on Grocery & Dairy</h4>
+                                <div class="box-img "  style="background-image: url('image4.jpg');background-size: 350px 350px; border: 2px solid black;"> </div>
+                                 <p class="see-more">See more</p>
+                 </div>
+            </div>
+    
+            <div class="box-1 box box-hover ">
+                <div class="box-con ">
+                                 <h4>Up to 60% on Home Appliance</h4>
+                                <div class="box-img"  style=" background-image: url('image5.jpg'); background-size: 350px 350px;"> </div>
+                                <p class="see-more">See more</p>
+                    </div>
+            </div>
+    
+            <div class="box-4 box box-hover ">
+                <div class="box-con ">
+                                <h4> Up to 30% o Electronics gagtes</h4>
+                                <div class="box-img "  style="background-image: url('image14.jpg');background-size: 350px 350px; border: 2px solid black;"> </div>
+                                 <p class="see-more">See more</p>
+                 </div>
+            </div>
+            <div class="box-3 box box-hover ">
+                <div class="box-con ">
+                            <h4>Beauty And Picks</h4>
+                            <div class="box-img"  style="background-image: url('image13.jpg'); background-size: 350px 350px;"> </div>
+                            <p class="see-more">See more</p>
+                 </div>
+            </div>
+            <div class="box-4 box box-hover ">
+                <div class="box-con ">
+                            <h4> Electronics product</h4>
+                            <div class="box-img "  style="background-image: url('image15.jpg');background-size: 320px 350px; border: 1px solid black;"></div>
+                            <p class="see-more">Visit to store</p>
+                 </div>
+            </div>
+                 
+            <div class="box-2 box box-hover ">
+                <div class="box-con ">
+                    <h4>Up to 50% on Electronics </h4>
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image8.jpg'); height: 150px; width: 37%; float: left; padding-left: 30px; margin-left: 5px; border: 1px solid black;"></div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image2.jpg') ;height: 150px; width: 37%; float: left; padding-left:28px; margin-left: 9px; border: 1px solid black;"> </div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image6.jpg'); height: 150px; width: 37%; float: left; padding-left: 30px; margin-left: 3px; border: 1px solid black;"> </div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image3.jpg'); height: 150px; width: 37%; float: left; padding-left:28px; margin-left: 9px; border:  1px solid black;"> </div>
+                     
+                    </div>
+                    <div class="box-con"><p class="see-more">See More</p></div>
+            </div>
+    
+            <div class="box-2 box box-hover ">
+                <div class="box-con ">
+                    <h4>Up to 50% on clothes</h4>
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image9.jpg'); height: 150px; width: 37%; float: left; padding-left: 30px; margin-left: 5px; border: 1px solid black;"></div>
+                           
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image10.jpg') ;height: 150px; width: 37%; float: left; padding-left:28px; margin-left: 9px; border: 1px solid black;"> </div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image11.jpg'); height: 150px; width: 37%; float: left; padding-left: 30px; margin-left: 3px; border: 1px solid black;"> </div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image12.jpg'); height: 150px; width: 37%; float: left; padding-left:28px; margin-left: 9px; border:  1px solid black;"> </div>
+                     
+                    </div>
+                    <div class="box-con"><p class="see-more">See More</p></div>
+            </div>
+    
+            <div class="box-2 box box-hover ">
+                <div class="box-con ">
+                    <h4>Up to 50% on kids Fashion</h4>
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('project_img5.jpg'); height: 150px; width: 37%; float: left; padding-left: 30px; margin-left: 5px; border: 1px solid black;"></div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('project_img7.jpg') ;height: 150px; width: 37%; float: left; padding-left:28px; margin-left: 9px;border: 1px solid black;"> </div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image7.jpg'); height: 150px; width: 37%; float: left; padding-left: 30px; margin-left: 3px; border: 1px solid black;"> </div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('project_img8.jpg'); height: 150px; width: 37%; float: left; padding-left:28px; margin-left: 9px; border:  1px solid black;"> </div>
+                     
+                    </div>
+                    <div class="box-con"><p class="see-more">See More</p></div>
+            </div>
+    
+            <div class="box-2 box box-hover ">
+                <div class="box-con ">
+                    <h4>Gaming Accessories
+                    </h4>
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image19.jpg'); height: 150px; width: 37%; float: left; padding-left: 30px; margin-left: 5px; border: 1px solid black;"></div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image20.jpg') ;height: 150px; width: 37%; float: left; padding-left:28px; margin-left: 9px; border: 1px solid black;"> </div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image21.jpg'); height: 150px; width: 37%; float: left; padding-left: 30px; margin-left: 3px; border: 1px solid black;"> </div>
+                            
+                            <div class="box-img"  style="background-size: 150px 150px; background-image: url('image22.jpg'); height: 150px; width: 37%; float: left; padding-left:28px; margin-left: 9px; border:  1px solid black;"> </div>
+                     
+                    </div>
+                         <div class="box-con"><p class="see-more">See More</p></div>
+            </div>
+    
+    
+            
+        </div>
+    <div class="backcolor" style="padding-top: 19px; height: 365px; width: 100%; background-color: #e2e7e6;">
+        <div class="today-deals">
+                   <div class="today-deals-head" style="padding-left: 20px; display: flex;">
+                        <h4>Today's Deals </h4>
+                        <p class="seealldeals">See All deals</p>
+                    </div>
+            
+           <div class="phone">
+            
+                  <div class="phone-scroll">
+                        <div class="slide">
+                                <img src="image17.jpg">
+                            <div class="name-price" style="padding-left: 17px;">
+                                <h6>Samsung Ultra S23</h6>
+                                <h6>₹ 94,000</h6>
+                            </div>
+                        </div>
+                            <div class="slide">
+                                        <img src="image20.webp">
+                                        <div class="name-price" style="padding-left: 17px;">
+                                            <h6>iphone 14 pro 128GB</h6>                                           
+                                            <h6>₹ 1,19,000</h6>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="image18.jpg">
+                                        <div class="name-price" style="padding-left: 17px;">
+                                            <h6>Apple earphods</h6>
+                                            <h6>₹ 20,500</h6>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="image19.webp">
+                                        <div class="name-price" style="padding-left: 17px;">
+                                            <h6>BoAt Rockerz</h6>
+                                            <h6>₹ 1,500</h6>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="images10.jpg" style="background-size:-10% ;">
+                                        <div class="name-price" style="padding-left: 17px;">
+                                            <h6>BoAt Storm Call Bluetooth</h6>
+                                            <h6>₹ 3,500</h6>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img14.jpg">
+                                        <div class="name-price" style="padding-left: 17px; background-size: cover;">
+                                            <h6> Apple Watch Ultra</h6>
+                                            <h6>₹ 89,900</h6>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img15.jpg">
+                                        <div class="name-price" style="padding-left: 17px;">
+                                            <h6>Smart speaker with Alexa (Blue)</h6>
+                                            <h6>₹ 3,5000</h6>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img2.jpg">
+                                        <div class="name-price" style="padding-left: 17px;">
+                                            <h6>Sony WH-XB910N Wireless Headphones</h6>
+                                            <h6>₹ 19,000</h6>
+                                        </div>
+                                    </div><div class="slide">
+                                        <img src="img3.jpg">
+                                        <div class="name-price" style="padding-left: 17px;">
+                                            <h6>OnePlus 11R 5G (Galactic Silver)</h6>
+                                            <h6>₹ 38,000</h6>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img16.jpg">
+                                        <div class="name-price" style="padding-left: 17px; background-size: cover;" >
+                                            <h6>Canon M50 Mark II 15-45mm f3.5-6.3 is STM</h6>
+                                            <h6>₹ 59,900.00</h6>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img17.jpg">
+                                        <div class="name-price" style="padding-left: 17px;">
+                                            <h6>Echo Dot (3rd Gen) - Smart speaker with Alexa (Black)</h6>
+                                            <h6>₹ 2,900</h6>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img18.jpg">
+                                        <div class="name-price" style="padding-left: 17px;">
+                                            <h6>Philips Audio Channel Wireless Bluetooth</h6>
+                                            <h6>₹ 3,500</h6>
+                                        </div>
+                                    </div>
+                    </div>
+            
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+        <div class="content">
+           
+    
+            <div class="box-1 box box-hover ">
+                <div class="box-con ">
+                                 <h4>New Arrivals in Toys</h4>
+                                <div class="box-img"  style=" background-image: url('image23.jpg'); background-size: 350px 350px;"> </div>
+                                <p class="see-more">See more</p>
+                    </div>
+            </div>
+    
+            <div class="box-4 box box-hover ">               
+                <div class="box-con ">
+                                <h4>For your Fitness Needs</h4>
+                                <div class="box-img "  style="background-image: url('image24.jpg');background-size: 350px 350px; border: 2px solid black;"> </div>
+                                 <p class="see-more">See more</p>
+                 </div>
+            </div>
+            <div class="box-3 box box-hover ">
+                <div class="box-con ">
+                            <h4>Home refresh ideas</h4>
+                            <div class="box-img"  style="background-image: url('images8.jpg'); background-size: 350px 350px;"> </div>
+                            <p class="see-more">See more</p>
+                 </div>
+            </div>
+            <div class="box-4 box box-hover ">
+                <div class="box-con ">
+                            <h4> Shops Tablets of apple</h4>
+                            <div class="box-img "  style="background-image: url('image26.jpg');background-size: 350px 350px;border: 1px solid black ;"></div>
+                            <p class="see-more">Visit to store</p>
+                 </div>
+            </div>
+       </div>
+    
+       <div class="backcolor" style="padding-top: 19px; height: 365px; width: 100%; background-color: #e2e7e6;">
+        <div class="today-deals">
+                   <div class="today-deals-head" style="padding-left: 20px; display: flex;">
+                        <h4>Best Deals on Fashion</h4>
+                        <p class="seealldeals" >See All deals</p>
+                    </div>
+            
+           <div class="phone">
+            
+                  <div class="phone-scroll">
+                        <div class="slide">
+                                <img src="img10.jpg">
+                            <div class="name-price" style="padding-left: 20px; font-size: 20px;">
+                                <h6>XPIOR Funky Printed Shirt for Men</h6>
+                                <h6>700</h6>
+                            </div>
+                        </div>
+                            <div class="slide">
+                                        <img src="img11.jpg">
+                                        <div class="name-price" style="padding-left: 20px; font-size: 20px;">
+                                            <h6>wIndoPrimo Men's Regular Fit Casual Shirt</h6>
+                                            <h6>₹ 730</h6>
+                                        </div>
+
+                                    </div>
+                                   
+                                    <div class="slide">
+                                        <img src="img12.jpg">
+                                        <div class="name-price" style="padding-left: 20px; font-size: 20px;">
+                                            <h6>EYEBOGLER Regular Fit Men's Hoodie</h6>
+                                            <h6>₹ 450</h6>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img13.jpg">
+                                        <div class="name-price" style="padding-left: 20px; font-size: 20px;">
+                                            <h6>Litway Boys Anime Printed Black Tshirt</h6>
+                                            <h6>₹ 300</h6>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img9.jpg">
+                                        <div class="name-price" style="padding-left: 20px; font-size: 20px;">
+                                            <h6>BLIVE Boys Printed Cotton</h6>
+                                            <h6>₹ 500</h6>
+                                        </div>
+
+                                    </div><div class="slide">
+                                        <img src="image19.webp">
+                                        <div class="name-price" style="padding-left: 20px; font-size: 20px;">
+                                            <h6>white stylish casual shoes</h6>
+                                            <h6>₹ 500</h6>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img8.jpg">
+                                        <div class="name-price" style="padding-left: 20px; font-size: 20px;">
+                                            <h6>Full Sleeve Hood Cotton T-Shirt</h6>
+                                            <h6>₹ 500</h6>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img7.jpg">
+                                        <div class="name-price" style="padding-left: 20px; font-size: 20px;">
+                                            <h6>white stylish casual shoes</h6>
+                                            <h6>₹ 500</h6>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img5.jpg">
+                                        <div class="name-price" style="padding-left: 20px; font-size: 20px;">
+                                            <h6>Axter Men Black Shoes</h6>
+                                            <h6>₹ 1,017.00</h6>
+                                        </div>
+                                    </div>
+                    </div>
+            
+            </div>
+        </div>
+    </div>
+        
+            
+        </div>
+        <div class="content">
+        <div class="box-1 box-hover box">
+            <div class="box-con ">
+                       <h4>Shop activity trackers and smartwatches</h4>
+                        <div class="box-img" style="background-image: url('images1.jpg');background-size: 350px 350px;border: 2px solid black;"> </div>
+                       <p class="see-more">See more</p>
+           </div>
+    </div>
+    <div class="box-2 box box-hover ">
+                <div class="box-con ">
+                       <h4>Up to 50% floor cleaner </h4>
+                       <div class="box-img"  style="background-image: url('images2.jpg') ;background-size: 350px 350px;border: 2px solid black;"> </div>
+                       <p class="see-more">See more</p>
+                </div>
+    </div>
+    <div class="box-3 box box-hover ">
+       <div class="box-con ">
+                       <h4>Up to 40% on Remote control car & toys</h4>
+                       <div class="box-img"  style="background-image: url('images3.jpg');background-size: 350px 350px;border: 2px solid black;"> </div>
+                       <p class="see-more">See more</p>
+        </div>
+    </div>
+    <div class="box-4 box box-hover ">
+       <div class="box-con ">
+                       <h4> Up to 30% on Shoes</h4>
+                       <div class="box-img "  style="background-image: url('images5.webp');background-size: 350px 350px; border: 2px solid black;"> </div>
+                        <p class="see-more">See more</p>
+        </div>
+    </div>
+    </div>
+    </container>
+    
+    <p style="height: 25px;background-color: #e2e7e6;"></p>  
+    
+    <footer>
+        <div class="footer">
+           <div class="footer-signin">
+                      <h4 style="font-size: 13px;">See personalized recommendations</h4><br>
+                      <div class="box-signin-footer"><p>Sign In</p></div>
+                      <p style="margin-top: 5px; margin-left: 45px;">New Customer?<a class="sign-up">Sign up</a></p>
+           </div>
+        </div>
+       
+           <div class="back-to-top ">
+            <p>Back To Top</p>
+           </div>
+    
+        <div class="panel-2 ">
+           <ul>
+            <h3>Get to Know Us</h3>
+            <p class="underline">Careers</p>
+            <p class="underline">Blog</p>
+            <p class="underline"> About Amazon</p>
+            <p class="underline">Investor Relations</p>
+            <p class="underline">Amazon Devices</p>
+            <p class="underline">Amazon Science</p>
+           </ul>
+    
+           <ul>
+            <h3>Make Money</h3>
+            <p class="underline">Sell product on Amazon</p>
+            <p class="underline">Sell on Amazon Business</p>
+            <p class="underline">Sell apps on Amazon</p>
+            <p class="underline">Become an Afflliate</p>
+            <p class="underline">Advertise Your Products</p>
+            <p class="underline">Self-Publish with Us</p>
+            <p class="underline">Host on Amazon Hub</p>
+           </ul>
+    
+    
+           <ul>
+            <h3>Amazon Payment Products</h3>
+            <p class="underline">Amazon Business Card</p>
+            <p class="underline">Shop with Points</p>
+            <p class="underline">Reload Your Balance</p>
+            <p class="underline">Amazon Currency Converter</p>
+           </ul>
+    
+           <ul>
+            <h3>Let Us Help You</h3>
+            <p class="underline"> Amazon and COVID-19</p>
+            <p class="underline">Your Account</p>
+            <p class="underline">Your Order</p>
+            <p class="underline">Shipping Rates & Policies</p>
+            <p class="underline">Returns & Replacements</p>
+            <p class="underline">Manage Your Content and Devices</p>
+            <p class="underline">Amazon Assistant</p>
+            <p class="underline">Help</p>
+           </ul>
+    
+           
+    
+        </div>
+    
+        <div class="footer-panel-3">
+            <div class="logo-panel-3">
+    
+            </div>
+        </div>
+    
+        <div class="end " >
+            <div class="end-col">
+                <div class="end-col1 underline">
+                    <h5>Amazon Music</h5>
+                    <p class="end-col1-size">Stream millon of songs</p>
+        
+                </div>
+     
+                <div class="end-col1 underline">
+                    <h5>Amazon Advertising</h5>
+                    <p class="end-col1-size">Find,attract and engage customers</p>
+                   
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>6pm</h5>
+                    <p class="end-col1-size">Score deals on fashion brands</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>AbeBooks</h5>
+                    <p class="end-col1-size">Books,arts & collectibles</p>
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>ACX</h5>
+                    <p class="end-col1-size">Audiobook Publishing Made Easy</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Sell on Amazon</h5>
+                   
+                    <p class="end-col1-size">Start a selling Account</p>
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Amazon Business</h5>
+                    <p class="end-col1-size">Everything for Your Business</p>
+                    
+                </div>
+    
+    
+            </div>
+    
+            <div class="end-col">
+                <div class="end-col1 underline">
+                    <h5>AmazonGlobal</h5>
+                   
+                    <p class="end-col1-size">Ship Orders Internationally</p>
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Home Service</h5>
+                    
+                    <p class="end-col1-size">Experienced Pros Hapiness Guarantee</p>
+                </div>
+     
+                <div class="end-col1 underline">
+                    <h5>Amazon Ignite</h5>
+                    <p class="end-col1-size">Sell your original Digital Educational Resources</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Amazon Web Service</h5>
+                    <p class="end-col1-size">Scalable Cloud Computing Service</p>
+                   
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Audible</h5>
+                    <p class="end-col1-size">Listen to Books & Original Audio Performances</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Book Depository</h5>
+                    <p class="end-col1-size">Books With Free Delivery Worldwide</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Box Office Maps</h5>
+                    <p class="end-col1-size">Find Movies Box Office Data</p>
+                    
+                </div>
+    
+    
+            </div>
+    
+            <div class="end-col">
+                <div class="end-col1 underline">
+                    <h5>ComiXology</h5>
+    
+                    <p class="end-col1-size">Thousands of Digital Comics</p>
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>DPReview</h5>
+                    <p class="end-col1-size">Digital Photography</p>
+                    
+                </div>
+     
+                <div class="end-col1 underline">
+                    <h5>Fabric</h5>
+                    <p class="end-col1-size">Sewing, Quilting & Kniting</p>
+                   
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Goodreads</h5>
+                    <p class="end-col1-size">Book reviews & recommendations</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>IMDb</h5>
+                    <p class="end-col1-size">Movies, TV & Celebrities</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>IMDbpro</h5>
+                    <p class="end-col1-size">Get into Entertainment Professionals Need</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Kindle Direct Publishing</h5>
+                    <p class="end-col1-size">Inside Digital & Print Publishing Made Easy</p>
+                    
+                </div>
+    
+    
+            </div>
+    
+            <div class="end-col">
+                <div class="end-col1 underline">
+                    <h5>Prime Video Direct</h5>
+                   
+                    <p class="end-col1-size">Video Distribution Made Easy</p>
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Shopbop</h5>
+    
+                    <p class="end-col1-size">Designer Fashion Brands</p>
+                </div>
+     
+                <div class="end-col1 underline">
+                    <h5>Wootl</h5>
+                    <p class="end-col1-size">Deals and Shenanigans</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Zappos</h5>
+                    <p class="end-col1-size">Shoes & Clothing</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Ring</h5>
+                    <p class="end-col1-size">Smart Home Security Systems</p>
+                   
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>eero WiFi</h5>
+                    <p class="end-col1-size">Stream 4k Video in Every Room</p>
+                    
+                </div>
+    
+                <div class="end-col1 underline">
+                    <h5>Blink</h5>
+                    
+                    <p class="end-col1-size">Smart Security for Every Home</p>
+                </div>
+    
+    
+            </div>
+        
+            
+        </div>
+    </footer>
+    </body>
+    <script>
+
+
+        // setTimeout(
+        //        function() {
+        //         alert("Hello welcome to website");
+        //          },5000
+        // )
+    
+        // setTimeout(
+        //        function() {
+        //         prompt("Enter you name to become permenate customer  ","")
+        //         prompt("Enter you Email-id ","")
+        //         prompt("Enter you  Mobile no","")
+        //         prompt("Enter your country","")
+
+        //          },4000
+        // )
+    
+        // setTimeout(
+        //        function() {
+        //         confirm("I hope you are enjoying shopping")
+        //          },20000
+        // )
+    
+        // setTimeout(
+        //        function() {
+        //         confirm("Do you like this website ?  ");
+        //          },100000
+        // )
+    
+        function showtime() {
+         var d = new Date();
+         var h = d.getHours();
+         var m = d.getMinutes();
+         var s = d.getSeconds();
+         var session = "AM";
+
+         if(h>12){
+            h = h-12;
+        }
+        
+        if(h<10){
+            h = "0" + h;
+        }
+
+        if(s<10){
+            s = "0" + s;
+        }
+
+        if(m<10){
+            m = "0" + m;
+        }
+     
+
+
+         var time = h + ":" + m + ":" + s + ":"+ session;
+         document.getElementsByTagName("h2")[0].innerText = time;
+         setTimeout(showtime,1000);
+        
+    }
+</script>
+    </html>                          
+    
